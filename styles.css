@@ -59,6 +59,7 @@ main {
   line-height: 25px;
   color: #717fa6;
   margin-bottom: 1.5rem;
+  max-width: 90%;
 }
 .annual-plan-container {
   width: 100%;
@@ -110,4 +111,15 @@ main {
   color: #717fa6;
   border: none;
   font-family: 'Red Hat Display', sans-serif;
+}
+@media (min-width: 500px) {
+  /* :root {
+    font-size: 1.1rem;
+  } */
+  .text-container {
+    padding: 3rem;
+  }
+  .text-container h1 {
+    font-size: 1.75rem;
+  }
 }
