@@ -36,13 +36,58 @@ main {
 .hero {
   width: 100%;
   border-radius: 20px 20px 0 0;
+  display: block;
 }
 .text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem 1.5rem;
+}
+.text-container h1 {
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+
+  color: #1f2e55;
 }
 .text-container p {
   text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #717fa6;
+  margin-bottom: 1.5rem;
+}
+.annual-plan-container {
+  width: 100%;
+  border-radius: 11px;
+  background-color: #f7f9ff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.flex-left {
+  display: flex;
+  gap: 20px;
+}
+.price-container strong,
+.price-container span {
+  display: block;
+  font-size: 0.875rem;
+}
+.price-container strong {
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.price-container span {
+  color: #717fa6;
+}
+.annual-plan-container a {
+  font-weight: 700;
+  font-size: 13px;
+  color: #382ae1;
 }
